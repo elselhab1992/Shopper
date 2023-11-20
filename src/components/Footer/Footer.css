@@ -1,6 +1,8 @@
 footer {
   width: 100%;
   text-align: center;
+  position: sticky;
+  top: 100%;
 }
 
 .footer-logo {
@@ -57,4 +59,18 @@ footer {
 footer p {
   margin-bottom: 20px;
   font-size: 18px;
+}
+
+@media (min-width: 300px) {
+  .footer-links ul {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-links ul {
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
 }

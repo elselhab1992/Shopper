@@ -22,3 +22,45 @@
   margin: 50px auto;
   padding: 0 150px;
 }
+
+@media (min-width: 300px) {
+  .collections h2 {
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+  .new-collections {
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+    padding: 5px 0;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .collections h2 {
+    font-size: 40px;
+  }
+
+  .new-collections {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .new-collections {
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .new-collections {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 50px auto;
+    padding: 0 150px;
+    gap: 20px;
+  }
+}

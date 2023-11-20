@@ -7,9 +7,9 @@ const Newsletter = () => {
       <div className="newsletter-container">
         <h3>get exclusive offers every day</h3>
         <p>subscribe to our newsletter and stay updated</p>
-        <div class="newsletter-input">
+        <div className="newsletter-input">
           <input type="text" placeholder="Your Email" />
-          <Buttons class="btn btn-lg btn-dark">Submit</Buttons>
+          <Buttons>Submit</Buttons>
         </div>
       </div>
     </section>

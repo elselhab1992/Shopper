@@ -99,7 +99,7 @@ const Navbar = () => {
           <li className="nav-item">
             <div className="login">
               <Link to="/cart" onClick={closeMenu}>
-                your cart
+                cart
                 <BsCart3 className="cart-icon" />
               </Link>
               <div className="cart-count">0</div>

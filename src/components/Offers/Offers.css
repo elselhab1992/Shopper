@@ -22,3 +22,61 @@
 .offers-right img {
   width: 300px;
 }
+
+@media (min-width: 300px) {
+  .offers-container {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .offers-left h2 {
+    font-size: 30px;
+  }
+
+  .offers-left p {
+    font-size: 16px;
+  }
+
+  .offers-right img {
+    width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .offers-container {
+    flex-direction: row;
+    margin: 30px auto;
+    width: 85%;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .offers-left h2 {
+    font-size: 40px;
+  }
+
+  .offers-right img {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .offers-container {
+    margin: 100px auto;
+  }
+
+  .offers-left h2 {
+    font-size: 60px;
+  }
+
+  .offers-left p {
+    font-size: 18px;
+  }
+
+  .offers-right img {
+    width: 300px;
+  }
+}
