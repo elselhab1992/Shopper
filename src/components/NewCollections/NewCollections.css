@@ -1,0 +1,24 @@
+.collections {
+  width: 100%;
+}
+
+.collections h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.collections hr {
+  width: 150px;
+  height: 5px;
+  margin: auto;
+  background-color: #000;
+}
+
+.new-collections {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 50px auto;
+  padding: 0 150px;
+}
