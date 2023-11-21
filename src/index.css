@@ -30,3 +30,10 @@ a:hover {
   cursor: pointer;
   color: #7c7676;
 }
+
+hr {
+  width: 150px;
+  height: 5px;
+  margin: auto;
+  background-color: #000;
+}

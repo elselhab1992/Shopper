@@ -1,0 +1,41 @@
+.desc {
+  width: 100%;
+}
+
+.desc-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: auto;
+}
+
+.taps {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.desc-tap {
+  width: 120px;
+  padding: 10px;
+  background: #efefef;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.white {
+  background: #fff;
+}
+
+.desc-info {
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.desc-info p {
+  margin: 25px;
+}

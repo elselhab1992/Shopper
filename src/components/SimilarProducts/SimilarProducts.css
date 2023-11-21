@@ -1,0 +1,31 @@
+.similar-heading h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.similar-container {
+  width: 85%;
+  overflow: hidden;
+  margin: auto;
+  padding: 0 50px;
+  position: relative;
+}
+
+.swiper-btns {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.swiper-btns button {
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.slide {
+  margin: 85px auto;
+}
