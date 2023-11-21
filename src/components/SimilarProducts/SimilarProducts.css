@@ -29,3 +29,27 @@
 .slide {
   margin: 85px auto;
 }
+
+@media (min-width: 300px) {
+  .similar-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .slide {
+    margin: 60px auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .similar-container {
+    width: 100%;
+    padding: 0 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .similar-container {
+    width: 90%;
+  }
+}

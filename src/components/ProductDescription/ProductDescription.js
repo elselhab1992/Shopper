@@ -22,14 +22,6 @@ const ProductDescription = () => {
             dolor sitLorem ipsum dolor sitLorem ipsum dolor sit Lorem ipsum
             dolor sit amet consectetur adipisicing elit.
           </p>
-          <p>
-            Sapiente, minus iure inventore dolore dolorem ipsam Lorem ipsum
-            dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor
-            sit dolor sitLorem ipsum dolor sitLorem ipsum dolor sit Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Sapiente, minus iure
-            inventore dolore dolorem ipsam Lorem ipsum dolor sitLorem ipsum
-            dolor sitLorem ipsum dolor sitLorem ipsum dolor sit
-          </p>
         </div>
       </div>
     </section>

@@ -39,3 +39,23 @@
 .desc-info p {
   margin: 25px;
 }
+
+@media (min-width: 300px) {
+  .desc-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .desc-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .desc-container {
+    width: 80%;
+  }
+}

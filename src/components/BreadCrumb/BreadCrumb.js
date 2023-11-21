@@ -8,9 +8,9 @@ const BreadCrumb = ({ product }) => {
       <div className="breadcrumb-content">
         <Link to="/">Shop</Link>
         <FaChevronRight />
-        {product.category}
+        <p>{product.category}</p>
         <FaChevronRight />
-        {product.name}
+        <p>{product.name}</p>
       </div>
     </section>
   );
