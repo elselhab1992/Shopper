@@ -11,6 +11,7 @@ import BreadCrumb from "./BreadCrumb/BreadCrumb";
 import ProductDisplay from "./ProductDisplay/ProductDisplay";
 import ProductDescription from "./ProductDescription/ProductDescription";
 import SimilarProducts from "./SimilarProducts/SimilarProducts";
+import CartItem from "./CartItem/CartItem";
 
 export {
   NavBar,
@@ -26,4 +27,5 @@ export {
   ProductDisplay,
   ProductDescription,
   SimilarProducts,
+  CartItem,
 };

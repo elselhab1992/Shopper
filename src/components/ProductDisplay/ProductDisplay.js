@@ -2,6 +2,7 @@ import "./ProductDisplay.css";
 import { IoMdStar } from "react-icons/io";
 import { MdOutlineStarHalf } from "react-icons/md";
 import Buttons from "../Buttons/Buttons";
+import { useGlobalContext } from "../../Context/Context";
 
 const ProductDisplay = ({
   id,
@@ -11,6 +12,9 @@ const ProductDisplay = ({
   old_price,
   category,
 }) => {
+  const { addToCart, cartItems } = useGlobalContext();
+  const cartItemAmount = cartItems[id];
+
   return (
     <section className="product-display">
       <div className="display-container">
@@ -58,7 +62,12 @@ const ProductDisplay = ({
               <p>XL</p>
             </div>
           </div>
-          <Buttons>add to cart</Buttons>
+          <button onClick={() => addToCart(id)}>
+            add to cart
+            {cartItemAmount > 0 && (
+              <span style={{ marginLeft: 10 }}>({cartItemAmount})</span>
+            )}
+          </button>
           <div className="product-category">
             <p>
               <span>category:</span> {category}
