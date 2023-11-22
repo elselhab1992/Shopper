@@ -1,7 +1,7 @@
 .cart-total-container {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: flex-start;
   margin: auto;
   padding: 30px 100px;
 }
@@ -135,7 +135,7 @@
 
 @media (min-width: 768px) {
   .cart-total-container {
-    align-items: start;
+    align-items: flex-start;
   }
 
   .checkout {
