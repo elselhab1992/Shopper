@@ -1,6 +1,8 @@
+/* eslint-disable array-callback-return */
+/* eslint-disable no-unused-vars */
 import "./Cart.css";
 import { useGlobalContext } from "../../Context/Context";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { CartItem } from "../../components/index";
 import { Buttons } from "../../components/index";
 
@@ -11,7 +13,7 @@ const Cart = () => {
   const subTotal = cartSubtotal();
 
   return (
-    <section className="cart-container">
+    <section className="cart-container-summary">
       <div className="cart-items">
         {products.map((product) => {
           const { id, name, new_price, image } = product;
@@ -51,7 +53,12 @@ const Cart = () => {
             </div>
           </div>
         ) : (
-          <h2>Your cart is empty</h2>
+          <div className="cart-empty">
+            <h2>Your cart is empty</h2>
+            <Link to="/">
+              <Buttons>Go Shopping</Buttons>
+            </Link>
+          </div>
         )}
       </div>
     </section>

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "./CartItem.css";
 import { useGlobalContext } from "../../Context/Context";
 import { FaTimes } from "react-icons/fa";
@@ -11,6 +12,7 @@ const CartItem = ({ id, name, new_price, image }) => {
   return (
     <section className="shopping-cart">
       <div className="cart-container">
+        {/* top */}
         <div className="cart-headings">
           <p>products</p>
           <p>title</p>
@@ -20,10 +22,13 @@ const CartItem = ({ id, name, new_price, image }) => {
           <p>remove</p>
         </div>
         <hr />
+        {/* bottom */}
         <div className="cart-content">
-          <img src={image} alt={name} />
+          <div className="cart-img">
+            <img src={image} alt={name} />
+          </div>
           <p>{name}</p>
-          <p>£{new_price}</p>
+          <p className="new-price">£{new_price}</p>
           <div className="cart-btns">
             <AiFillMinusSquare
               onClick={() => removeFromCart(id)}

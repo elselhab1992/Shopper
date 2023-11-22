@@ -1,7 +1,6 @@
 import "./ProductDisplay.css";
 import { IoMdStar } from "react-icons/io";
 import { MdOutlineStarHalf } from "react-icons/md";
-import Buttons from "../Buttons/Buttons";
 import { useGlobalContext } from "../../Context/Context";
 
 const ProductDisplay = ({
