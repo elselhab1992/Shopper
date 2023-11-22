@@ -108,7 +108,7 @@
   }
 
   .order-summary {
-    justify-content: start;
+    justify-content: flex-start;
   }
 
   .promo-input {

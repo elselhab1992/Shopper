@@ -50,7 +50,7 @@
 .prices {
   margin: 20px 0;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -72,7 +72,7 @@
 
 .size {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
 }
