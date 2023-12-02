@@ -72,9 +72,9 @@
     text-align: left;
   }
 
-  .hero-left h1 {
+  /* .hero-left h1 {
     font-size: 25px;
-  }
+  } */
 
   .hero-left h2 {
     font-size: 40px;
@@ -115,7 +115,8 @@
   }
 
   .hero-left h2 {
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: 800;
   }
 
   .hero-left h2 span img {

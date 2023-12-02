@@ -11,7 +11,6 @@ const Hero = () => {
       <div className="hero-container">
         {/* left side */}
         <div className="hero-left">
-          <h1>new arrivals only</h1>
           <h2>
             new
             <span className="hand">
